@@ -1,4 +1,3 @@
-var samples;
 var metadata;
 var sample_values = [];
 var otu_Ids = [];
@@ -10,7 +9,7 @@ var bubbleOtuLabels = [];
 function init() {
     d3.json("../Resources/samples.json").then((importedData) => {
         var names = importedData.names;
-        samples = importedData.samples;
+        var samples = importedData.samples;
         metadata = importedData.metadata;
 
         var select = d3.select('select');
