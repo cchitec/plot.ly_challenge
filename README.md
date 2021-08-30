@@ -1,1 +1,1 @@
-https://cchitec.github.io/plot.ly_challenge/
+https://cchitec.github.io/plotly_challenge/
